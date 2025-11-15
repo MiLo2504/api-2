@@ -1,7 +1,32 @@
 {
+  "name": "api-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon --watch src src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiLo2504/api-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MiLo2504/api-2/issues"
+  },
+  "homepage": "https://github.com/MiLo2504/api-2#readme",
   "dependencies": {
-    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "mysql": "^2.18.1"
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
