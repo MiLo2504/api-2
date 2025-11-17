@@ -22,5 +22,5 @@ app.use('/api/clinics', doctorsRoutes);         // GET /api/clinics/:id/doctors
 // health
 app.get('/health', (_req, res) => res.json({ ok: true }));
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
+const port = process.env.PORT || 15234;
+app.listen(port, () => console.log(`Server running on http://mysql-130f1eb7-moisessolis-5a83.c.aivencloud.com:${port}`));
